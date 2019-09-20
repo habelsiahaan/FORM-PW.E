@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <style media="screen">
+    body{
+      background-image: url(agriculture.png);
+      background-position: center;
+      background-size: cover;
+    }
+    </style>
+    <title> Agriculture Form </title>
+  </head>
+  <body>
+    <center>
+      <h1>
+        Agriculture
+      <h1>
+        <form method="POST" action="proses.html">
+  FORM
+  <input type="hidden" name="halaman" value="4">
+  <table border="4">
+    <tr>
+      <td><label for="nama"><span style="color:white">Nama lengkap</label></span></td>
+      <td><input type="text" name="nama" id="nama" maxlength="40" size="20"></td>
+    </tr>
+    <tr>
+      <td><label for="pass"><span style="color:white">Password</label></span></td>
+      <td><input type="password" name="pass" id="pass" maxlength="8" size="8"></td>
+    </tr>
+    <tr>
+      <td><label for="pass"><span style="color:white">ketik password lagi</label></span></td>
+      <td><input type="password" name="pass" id="pass" maxlength="8" size="8"></td>
+    <tr>
+      <td><label for="jenkel"><span style="color:white">Jenis kelamin</label></span></td>
+      <td><input type="radio" name="jenkel" id="jenkel" value="L"><span style="color:white">Laki-laki</span><br>
+          <input type="radio" name="jenkel" id="jenkel" value="P"><span style="color:white">Perempuan</span></td>
+    </tr>
+    <tr>
+      <td><label for="email"><span style="color:white">Email</label></span></td>
+      <td><textarea maxlength="40" cols="20"
+          name="email" id="email"></textarea></td>
+    </tr>
+  </table>
+  <p><a href="proses.html"><span style="color: gold">selesai
+  </span> </a></p>
+</form>
+    </center>
+  </body>
+</html>
